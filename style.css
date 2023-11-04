@@ -1,0 +1,239 @@
+
+body {
+    width: auto;
+    /* background-color: #000; */
+    background: url(assets/illustrations/Bathome1.png), #000;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.btn_a {
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(to right, #eddebf88, #8900089c) ;
+}
+
+header {
+    width: 86%;
+    height: 200px;
+    margin: auto;
+    border: 1px solid #bcbbbd1a;
+    border-top: none;
+    position: relative;
+}
+
+header img{
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 25%;
+    left: 7%;
+}
+
+header img:hover{
+    background-color: #f8f184;
+}
+
+header h1{
+    width: auto;
+    height: auto;
+    border-bottom: 1px solid #fff;
+    position: absolute;
+    top: 18%;
+    right: 5%;
+}
+
+header h1 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.main {
+    width: 86%;
+    /* height: 2000px; */
+    margin: auto;
+    border: 3px solid #bcbbbd1a;
+    position: relative;
+}
+
+.nav_cote{
+    position: absolute;
+    top: 10%;
+    right: -510px;
+}
+
+.nav_cote ul{
+    list-style-type: none;
+}
+
+.nav_cote ul li{
+    text-decoration: none;
+    margin: 20px 0;
+}
+
+.intro {
+    /* border: 1px solid red; */
+    width: 75%;
+    height: calc(100vh - 150px);
+    margin: auto;
+    margin-top: 17%;
+}
+
+.intro p{
+    /* font-family: Raj; */
+    text-align: center;
+    font-size: 28px;
+}
+
+.intro h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.intro div{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+.intro div a{
+    margin: 0 20px;
+    padding: 20px 40px;
+    background: linear-gradient(to right, #eddebf88, #8900089c) ;
+}
+
+.fleche_down_header{
+    margin-left: 45%;
+    text-align: center;
+    /* background: #eddebf; */
+}
+
+.sect{
+    position: relative;
+}
+
+.sect h1{
+    width: auto;
+    font-size: 30px;
+    margin: 20px 0 20px 50px;
+}
+
+.sect p{
+    width: 76%;
+    margin-left: 50px;
+    font-size: 22px;
+    text-align: justify;
+}
+
+.fig_ figure{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.fig_ figure img{
+    margin-top: 0;
+}
+
+.fig_ figure figcaption{
+    text-align: center;
+}
+
+.fig_ figure img:hover{
+    zoom: 110%;
+}
+
+.multi_media{
+    position: relative;
+}
+
+.presentation{
+    width: 85%;
+    height: 40vh;
+    margin: 0 0 0 70px;
+    position: relative;
+}
+
+.presentation .icon_flèche_2{
+    position: absolute;
+    top: 40%;
+    right: 0;
+}
+
+.presentation .icon_flèche_1{
+    position: absolute;
+    top: 40%;
+    left: 0;
+}
+
+.presentation .inter{
+    width: 50%;
+    background-color: #a5a5a5;
+    position: absolute;
+    border-radius: 10px;
+    left: 30%;
+}
+
+.presentation img, .presentation div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.presentation div img, .presentation div div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.presentation div img{
+    width: 30%;
+}
+
+.presentation div div{
+    width: 68%;
+}
+
+.presentation div div h4{
+    padding: 0 10px;
+    margin: 10px 0;
+    width: 200px;
+}
+
+.presentation div div h5{
+    padding: 0 10px;
+    margin: 10px 0;
+    width: 200px;
+}
+
+.presentation div div h6{
+    padding: 0 10px;
+    margin: 10px 0;
+    width: 200px;
+}
+
+.presentation div div p{
+    margin: 0;
+    padding: 0 10px;
+    width: auto;
+    font-size: 14px;
+}
+
+.contenu{
+    width: 90%;
+    height: auto;
+    margin: 0 0 0 70px;
+    position: relative;
+}
+
+.icon_player{
+    position: absolute;
+    top: 39%;
+    left: 40%;
+}
+
+.formulaire{
+    background-color: #a5a5a5;
+}
+
+.formulaire h1{
+    text-align: center;
+}
