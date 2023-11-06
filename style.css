@@ -232,8 +232,68 @@ header h1 a{
 
 .formulaire{
     background-color: #a5a5a5;
+    position: relative;
 }
 
 .formulaire h1{
     text-align: center;
+}
+
+.formulaire form label{
+    font-size: 25px;
+    margin: 10px 20%;
+}
+
+.formulaire form input, .formulaire form select{
+    font-size: 18px;
+    margin: 10px 20%;
+}
+
+.formulaire form span{
+    font-size: 18px;
+    margin: 10px 20%;
+}
+
+.formulaire form div{
+    font-size: 18px;
+    margin: 10px 20%;
+}
+
+.formulaire form a{
+    font-size: 18px;
+    margin: 10px 5%;
+}
+
+.div_confirmer{
+    /* margin-left: 100px; */
+    text-align: center;
+}
+
+.confirmer{
+    display: block;
+    width: 250px;
+    margin: 30px 20px;
+    padding: 20px 40px;
+}
+
+.replique{
+    position: relative;
+    height: 80vh;
+    border: 1px solid #f8f184;
+    padding: 15%;
+}
+
+.replique img{
+    /* width: 10%; */
+    border: 1px solid #280aac;
+}
+
+.replique div{
+    width: 58%;
+    border: 1px solid #c2510f;
+}
+
+.replique img, .replique div{
+    display: inline-block;
+    vertical-align: middle;
 }
